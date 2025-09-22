@@ -1,0 +1,45 @@
+
+/* General Body styling */
+body {
+    background-color: #f8f9fa; 
+    color: #333;
+}
+
+/* Navbar specific styling */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Custom card styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom footer styling */
+footer {
+    border-top: 1px solid #444;
+}
+
+/* Placeholder for a chart or image */
+.chart-placeholder img {
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0; /* Prevents the footer from shrinking */
+}
